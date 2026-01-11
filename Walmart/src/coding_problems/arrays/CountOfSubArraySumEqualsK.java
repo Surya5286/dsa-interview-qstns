@@ -1,4 +1,4 @@
-package coding_problems;
+package coding_problems.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
