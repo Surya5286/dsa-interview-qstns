@@ -1,4 +1,4 @@
-package lld;
+package lld.lruCache;
 
 import java.util.HashMap;
 import java.util.Map;

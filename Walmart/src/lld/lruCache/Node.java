@@ -1,4 +1,4 @@
-package lld;
+package lld.lruCache;
 
 class Node<K, V> {
     K key;

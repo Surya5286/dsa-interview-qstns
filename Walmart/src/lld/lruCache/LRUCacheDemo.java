@@ -1,4 +1,4 @@
-package lld;
+package lld.lruCache;
 
 public class LRUCacheDemo {
 

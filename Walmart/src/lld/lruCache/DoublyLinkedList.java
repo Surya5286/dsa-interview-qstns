@@ -1,4 +1,4 @@
-package lld;
+package lld.lruCache;
 
 class DoublyLinkedList<K, V> {
 
