@@ -11,6 +11,10 @@ public class LRUCache<K, V> {
 
 
     public LRUCache(int capacity) {
+
+        if(capacity <= 0)
+            throw new IllegalArgumentException("Capacity must be Greater than 0");
+
         this.capacity = capacity;
         this.map = new HashMap<>();
         this.list = new DoublyLinkedList<>();
