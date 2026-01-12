@@ -1,4 +1,4 @@
-DAY 1 — Baseline + “HashMap / Arrays” DSA + Java Fundamentals (Walmart-style)
+_**DAY 1 — Baseline + “HashMap / Arrays” DSA + Java Fundamentals (Walmart-style)**_
 DSA (2 problems):
   - Two Sum / Subarray Sum Equals K / Group Anagrams (HashMap patterns)
   - One array problem (stock buy/sell or second-largest)
@@ -14,7 +14,8 @@ Why this day:
   - Walmart interviews often lean heavily on HashMap patterns. (Glassdoor mentions HashMap focus) 
 
 
-DAY 2 — Sliding Window + Strings + Concurrency Basics
+
+_**DAY 2 — Sliding Window + Strings + Concurrency Basics**_
 DSA:
   - Longest Substring Without Repeating Characters (sliding window)
   - One more sliding window variant (min window / max consecutive)
@@ -29,7 +30,7 @@ Deliverable:
 (LLD + thread-safety gets explicitly asked in Walmart LLD rounds.) 
 
 
-DAY 3 — Trees/Recursion + LLD (SOLID + Design Patterns)
+_**DAY 3 — Trees/Recursion + LLD (SOLID + Design Patterns)**_
 DSA:
   - Zigzag traversal (binary tree BFS)
   - One recursion/backtracking medium (word wrap / subsets / combinations)
@@ -42,7 +43,7 @@ Deliverable:
 (Walmart LLD round examples include YouTube ranking + design patterns.) 
 
 
-DAY 4 — Spring Boot Core (Request Flow + Exceptions + Transactions)
+_**DAY 4 — Spring Boot Core (Request Flow + Exceptions + Transactions)**_
 DSA:
   - One Tree/Heap medium
   - One interval problem (merge intervals)
@@ -59,7 +60,7 @@ Deliverable:
 (These exact areas appear in your question bank too — practice them interview-style.) :contentReference[oaicite:14]{index=14}
 
 
-DAY 5 — Microservices Reality: Resilience + Observability + Deployment Basics
+_**DAY 5 — Microservices Reality: Resilience + Observability + Deployment Basics**_
 DSA:
   - One graph BFS/DFS medium OR heap/priority queue medium
 Microservices:
@@ -77,7 +78,7 @@ Deliverable:
 (Walmart expects DevOps + observability + RCA mindset.) 
 
 
-DAY 6 — Kafka for Microservices (Walmart-relevant)
+_**DAY 6 — Kafka for Microservices (Walmart-relevant)**_
 DSA:
   - One medium focused on queues/streams (Find Median from Data Stream)
 Kafka (depth expected):
@@ -95,7 +96,7 @@ Why this matters:
   - Walmart inventory/replenishment is strongly event-driven in public case studies. 
 
 
-DAY 7 — SQL + Data Modeling + Performance
+_**DAY 7 — SQL + Data Modeling + Performance**_
 DSA:
   - DP light (1 medium) OR graph topo sort
 SQL (interview depth):
@@ -111,7 +112,7 @@ Deliverable:
 (Walmart interviews often mix algo + SQL; and inventory concurrency is a common design test.) 
 
 
-DAY 8 — HLD System Design #1: High-Concurrency Inventory Service (Walmart classic)
+_**DAY 8 — HLD System Design #1: High-Concurrency Inventory Service (Walmart classic)**_
 DSA:
   - 1 medium timed (35 minutes) like a real round
 HLD (90 minutes):
@@ -126,7 +127,7 @@ Deliverable:
 (Directly aligned with reported Walmart HLD interviews.) 
 
 
-DAY 9 — HLD System Design #2: Order → Inventory → Payment (Saga mindset)
+_**DAY 9 — HLD System Design #2: Order → Inventory → Payment (Saga mindset)**_
 DSA:
   - 1 medium timed (trees/graphs)
 HLD:
@@ -145,7 +146,7 @@ Deliverable:
 (This maps to microservices patterns + production focus listed in your prep docs.) 
 
 
-DAY 10 — Full Walmart Loop Simulation (DSA + LLD + HLD + Behavioral)
+_**DAY 10 — Full Walmart Loop Simulation (DSA + LLD + HLD + Behavioral)**_
 Simulate like the real loop:
   - DSA Round (60 min): 2 problems
   - LLD Round (45 min): design + concurrency (e.g., rate limiter / cache / ranking)
