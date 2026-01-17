@@ -3,22 +3,22 @@ package coding_problems.recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subset {
+public class Subsequences {
 
     public static void main(String[] args) {
 
         String str = "abc";
 
 
-        List<String> subsetList = getSubsequenceUsingBitManipulation(str);
-        System.out.println("Printing all the Subsets using Bit Manipulation Approach:- " + subsetList + "\n" +
-                "Total number of Combinations are :- " + subsetList.size());
+        List<String> subsequenceList = getSubsequenceUsingBitManipulation(str);
+        System.out.println("Printing all the Subsequences using Bit Manipulation Approach:- " + subsequenceList + "\n" +
+                "Total number of Combinations are :- " + subsequenceList.size());
 
-        subsetList.clear();
+        subsequenceList.clear();
 
-        subsetList = getSubsequenceUsingRecursion(str);
-        System.out.println("Printing all the Subsets using Recursion:- " + subsetList + "\n" +
-                "Total number of Combinations are :- " + subsetList.size());
+        subsequenceList = getSubsequenceUsingRecursion(str);
+        System.out.println("Printing all the Subsequences using Recursion:- " + subsequenceList + "\n" +
+                "Total number of Combinations are :- " + subsequenceList.size());
 
     }
 
