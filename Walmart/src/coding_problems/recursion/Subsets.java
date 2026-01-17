@@ -79,10 +79,12 @@ public class Subsets {
 
     private static void uniqueSubsetHelper(int[] arr, int startIndex, List<Integer> currentList, List<List<Integer>> result) {
 
+        // Add a snapshot of the current subset
         result.add(new ArrayList<>(currentList));
 
         for (int i = startIndex; i < arr.length ; i++) {
 
+            // Skip duplicates at the same recursion depth
             if(i > startIndex && arr[i] == arr[i-1])
                 continue;
 
